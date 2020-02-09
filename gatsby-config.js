@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Bookmarked`,
+    author: `J.A. Gaeta Mendes`,
+    description: `Um blog com Gatsby para arquivar artigos de interesse`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `GaetaJa`,
     },
   },
   plugins: [
@@ -16,6 +15,7 @@ module.exports = {
         name: `blog`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,6 +31,13 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+            },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener noreferrer",
             },
           },
           {
