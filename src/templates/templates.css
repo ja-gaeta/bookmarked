@@ -1,0 +1,8 @@
+a.links {
+  color: #fff;
+  box-shadow: none;
+}
+
+a:hover.links {
+  color: #fed940;
+}

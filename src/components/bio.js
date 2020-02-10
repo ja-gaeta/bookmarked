@@ -23,7 +23,7 @@ const Bio = () => {
       }
       site {
         siteMetadata {
-          author
+          editor
           social {
             twitter
           }
@@ -32,7 +32,7 @@ const Bio = () => {
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { editor, social } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -42,7 +42,7 @@ const Bio = () => {
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+        alt={editor}
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Editado por <strong>{author}</strong>.{` `}
+        Editado por <strong>{editor}</strong>.{` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           Você pode segui-lo no Twitter
         </a>

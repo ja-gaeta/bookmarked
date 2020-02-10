@@ -1,10 +1,11 @@
 ---
 title: Design de layout web para iniciantes
 date: "2014-07-17"
+author: "Mariana Alves"
+author_link: "https://marianaalvesux.com.br"
 description: "Um empurrãozinho para os designers do meio offline e aos iniciantes também."
+tags: ["design", "html", "css"]
 ---
-
-Autora: <a href="https://marianaalvesux.com.br" target="_blank" rel="noopener noreferrer">Mariana Alves</a>
 
 Desde o fim da faculdade, sempre tive vontade de encontrar uma forma de compartilhar com meus amigos os pequenos detalhes que separam um layout offline do online. Afinal, quem nunca recebeu um convite pra fazer um freela online ou até mesmo uma vaga de emprego?
 

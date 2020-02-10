@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bookmarked`,
-    author: `J.A. Gaeta Mendes`,
+    editor: `J.A. Gaeta Mendes`,
     description: `Um blog com Gatsby para arquivar artigos de interesse`,
     social: {
       twitter: `GaetaJa`,
